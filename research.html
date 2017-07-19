@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Research</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <!-- Bootstrap -->
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.3.6/cyborg/bootstrap.min.css" rel="stylesheet" media="screen">
+
+    <link href="/css/site.css" rel="stylesheet" media="screen">
+    <link href="/css/syntax.css" rel="stylesheet" media="screen">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48968311-4', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Mattia</a>
+        </div>
+        <div class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav navbar-left">
+            <li class="active"><a href="/research.html">Research</a></li>
+            <li><a href="/download.html">Download</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/bio.html">Bio</a></li>
+            <li><a href="/contacts.html">Contacts</a></li>
+          </ul>
+
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+<div class="container">
+
+  <ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+      <li class="active">Research</li>
+  </ol>
+
+  <div class="page-header">
+    <h4>Research</h4>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-7 content" role="main">
+    <main>
+      <p class="lead">My research is geared toward understanding the Earth's thermal structure and chemical composition, with the ultimate goal of improving our knowledge regarding the processes driving the planet formation and evolution.</p>
+<h5 id="continental-crust">Continental crust</h5>
+<p>I focused on the effect of chemical composition on the physical properties of the continental crust, particularly taking into account the effect of temperature and the presence of H2O. The presence of water stabilizes hydrated phases that have a strong impact on physical properties. Check <a href="http://onlinelibrary.wiley.com/doi/10.1002/2015GC005819/full">Guerri et al. [2015]</a> for more details.</p>
+<p><img alt="alt text" src="/figures/crufig.jpg" />
+<dl><img style="width: 592.45px; height: 443.7px; "alt="figure" src="figures/crufig.jpg"></dl></p>
+<dl><p>&nbsp;</p></dl>
+
+<h5 id="mantle-physical-properties-and-chemical-composition">Mantle physical properties and chemical composition</h5>
+<p>I investigate the mantle thermal structure and chemical composition. Forward modeling of mantle physical properties is performed assuming a compositional structure and using the thermodynamic modeling code <a href="http://www.perplex.ethz.ch">Perple_X</a> [Connolly, 2005; 2009]. Results are matched with 3D seismic tomography models. The procedure used to infer mantle temperature and density starting from a Vs model is detailed in the following figure.
+<dl><img style="width: 592.45px; height: 443.7px; "alt="figure" src="figures/inftem.png"></dl></p>
+<p>In this case, starting from a Vs model (SPani, <a href="http://onlinelibrary.wiley.com/doi/10.1002/2015JB012026/abstract">Tesoniero et al. [2015]</a>) and assuming a homogeneous pyrolitic composition, I inferred the mantle density and temperature. The thermodynamic modelling is performed with Perple_X adopting the thermodynamic dataset and formalism presented in Stixrude and Lithgow-Bertelloni (2005, 2011). More details in <a href="http://www.sciencedirect.com/science/article/pii/S0031920116301364">Guerri et al. [2016]</a>.</p>
+<dl><img style="width: 606.05px; height: 453.9px; "alt="figure" src="figures/vs_den_tem.png"></dl>
+
+<p>The Earth's lower mantle is characterized by two regions of low seismic wave speed. They are known as LLSVPs (Large Low Shear Wave Velocity Provinces). They are localized one underneath Africa and one in the equatorial central Pacific Ocean. In the figure below they are represented as imaged by the model MEAN (Guerri et al. [2016]), considering the surface relative to a dlnVs of -1%. In Guerri et al. [2016] we point out how interpreting the Vp and the Vs components of the tomography model SPani (Tesoniero et al. [2015]) in terms of temperature, assuming a homogeneous chemical composition, leads to two significantly discordant temperature structures. Such a result potentially points towards chemical heterogeneities in the lower mantle,  particularly in correspondence with the LLSVPs.</p>
+<dl><img style="width: 549.95px; height: 420.75px; "alt="africa" src="figures/africa.jpg"></dl>
+
+<dl><img style="width: 549.95px; height: 420.75px; "alt="pacific" src="figures/pacific.jpg"></dl>
+
+<p>Assuming compositional heterogeneities in correspondence of the LLSVPs helps in reducing the discrepancy between observed and predicted geoid. I compute the synthetic geoid with the code StagYY (<a href="http://www.sciencedirect.com/science/article/pii/S0031920108002276">Tackley [2008]</a>), developed by Paul Tackley (ETH, Zurich). Boundary deformation at the core mantle boundary and at the surface topography are taken into account in the geoid calculation.</p>
+    </main>
+    <ul class="pager">
+      <li class="next"><a href="/download.html">Download &rarr;</a></li>
+    </ul>
+    </div>
+
+  </div>
+
+    <div class="footer">
+        <p>Built implementing upon <a href="http://urubu.jandecaluwe.com">Urubu</a></p>
+    </div>
+</div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://code.jquery.com/jquery.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
